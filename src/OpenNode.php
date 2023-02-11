@@ -14,7 +14,7 @@
         }
 
         public function getOpenConfig() {
-            // TODO: Implement getOpenConfig() method.
+            return $this->openConfig;
         }
 
         public function setOpenConfig() {
@@ -22,7 +22,7 @@
         }
 
         public function getOpenRunning() {
-            // TODO: Implement getOpenRunning() method.
+            return $this->openRunning;
         }
 
         public function setOpenRunning() {
