@@ -18,6 +18,10 @@
             $this->configReport = $this->openNode->analyseConfigFile($this->configFile, $this->configReport);
         }
 
+        public function clearConfigFile(){
+            $this->configFile = [];
+        }
+
         public function getConfigFile(){
             return $this->configFile;
         }
