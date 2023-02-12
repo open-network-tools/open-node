@@ -13,6 +13,9 @@
             $this->openRunning = new OpenRunning();
         }
 
+        public function analyseConfigFile(){
+        }
+
         public function getOpenConfig() {
             return $this->openConfig;
         }
