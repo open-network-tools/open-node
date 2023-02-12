@@ -13,9 +13,7 @@
             $this->openRunning = new OpenRunning();
         }
 
-        public function analyseConfigFile($configFile){
-            $configFile = $configFile;
-            $configReport = [];
+        public function analyseConfigFile($configFile, $configReport){
             return $configReport;
         }
 
