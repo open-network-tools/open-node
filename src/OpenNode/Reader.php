@@ -14,7 +14,7 @@
         }
 
         public function analyseConfigFile(){
-            $this->openNode->analyseConfigFile($this->configFile);
+            $this->openNode->analyseConfigFile($this->configFile, $this->configReport);
         }
 
         public function getConfigFile(){
