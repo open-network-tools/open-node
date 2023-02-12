@@ -13,6 +13,10 @@
             $this->openNode = $openNode;
         }
 
+        public function analyseConfigFile(){
+            $this->openNode->analyseConfigFile();
+        }
+
         public function getConfigFile(){
             return $this->configFile;
         }
