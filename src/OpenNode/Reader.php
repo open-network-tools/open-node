@@ -9,8 +9,9 @@
         private $configReport = [];
         private $openNode;
 
-        public function __construct(OpenNode $openNode){
-            $this->openNode = $openNode;
+        public function __construct(OpenNode $openNode = null){
+            if(is_null($openNode)) $this->openNode = new OpenNode();
+            else $this->openNode = $openNode;
         }
 
         public function analyseConfigFile(){
