@@ -62,4 +62,9 @@
             return $this->openNode;
         }
 
+        public function setOpenNode($openNode){
+            $this->openNode = $openNode;
+            return $this;
+        }
+
     }
