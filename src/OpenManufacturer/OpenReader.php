@@ -6,8 +6,8 @@
 
     class OpenReader {
 
-        private $configFile = [];
-        private $configFileReport = [];
+        public $configFile = [];
+        public $configFileReport = [];
 
         public function analyseConfigFile(OpenConfig $openConfig){
             foreach ($this->configFile as $file => $c){
@@ -15,6 +15,10 @@
                     $this->analyseConfigSystem($openConfig, $file, $k, $v);
                 }
             }
+        }
+
+        public function getConfigFile(){
+            return $this->configFile;
         }
 
         public function loadConfigFile($filename, $ignoreComment = false, $ignoreSymbole = [""]){
