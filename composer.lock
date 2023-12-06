@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c49ad5bd7c047e6ae224a7b126740fac",
+    "content-hash": "a3845eb4f84cc09794f1acad7a1ea936",
     "packages": [
         {
             "name": "open-network-tools/open-config",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-network-tools/open-config.git",
-                "reference": "e2edb58ed7591be235fd4bb63b17568bf4a5a0ed"
+                "reference": "2321a1dce23101eb03d25429352eaec68f87af34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-network-tools/open-config/zipball/e2edb58ed7591be235fd4bb63b17568bf4a5a0ed",
-                "reference": "e2edb58ed7591be235fd4bb63b17568bf4a5a0ed",
+                "url": "https://api.github.com/repos/open-network-tools/open-config/zipball/2321a1dce23101eb03d25429352eaec68f87af34",
+                "reference": "2321a1dce23101eb03d25429352eaec68f87af34",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,6 @@
                 "php-coveralls/php-coveralls": "^2.5",
                 "phpunit/phpunit": "^10.0|^9.5|^8.5|^7.4|^6.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -48,9 +47,9 @@
             ],
             "support": {
                 "issues": "https://github.com/open-network-tools/open-config/issues",
-                "source": "https://github.com/open-network-tools/open-config/tree/v0.0.6"
+                "source": "https://github.com/open-network-tools/open-config/tree/v1.0.0"
             },
-            "time": "2023-11-07T16:37:34+00:00"
+            "time": "2023-12-06T17:31:29+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3650,9 +3649,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "open-network-tools/open-config": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
