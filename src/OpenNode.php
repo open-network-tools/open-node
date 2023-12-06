@@ -5,8 +5,8 @@
 
     class OpenNode {
 
-        private $openConfig;
-        private $openManufacturer;
+        public $openConfig;
+        public $openManufacturer;
 
         public function __construct(){
             $this->openConfig = new OpenConfig();

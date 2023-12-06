@@ -6,8 +6,8 @@
 
     class OpenManufacturer {
 
-        private $openReader;
-        private $openWriter;
+        public $openReader;
+        public $openWriter;
 
         public function __construct(){
             $this->openReader = new OpenReader();
